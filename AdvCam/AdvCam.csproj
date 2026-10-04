@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Klak.Spout.Runtime">
+      <HintPath>..\..\..\Twitch\Software\VNyan - PreRelease\VNyan_Data\Managed\Klak.Spout.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="VNyanInterface">
+      <HintPath>..\..\..\Twitch\Software\VNyan\VNyan_Data\Managed\VNyanInterface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
